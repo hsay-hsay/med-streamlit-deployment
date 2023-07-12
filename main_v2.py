@@ -27,8 +27,8 @@ credentials = {
 }
 
 # get the list of pdf files
-file_directory = os.path.join(Path.cwd(),"file_directory")
-pdf_files = [f'sample{i}.pdf' for i in range(1, len(os.listdir(file_directory))+1)]
+# file_directory = os.path.join(Path.cwd(),"file_directory")
+# pdf_files = [f'sample{i}.pdf' for i in range(1, len(os.listdir(file_directory))+1)]
 
 cookie_name = "sample_app"
 authenticator = stauth.Authenticate(credentials, cookie_name, "abcd", cookie_expiry_days=30)
